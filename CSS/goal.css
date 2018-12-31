@@ -2,20 +2,20 @@
 /* background color and opcatiy */
 
 body {
-  background-color: rgba(0, 0, 0, 0);
-  margin: 0px auto;
-  overflow: hidden;
-}
-._4-u2 {
-  border: 0
-}
-._4-u8 {
-  background: none
-}
+		background-color: rgba(0, 0, 0, 0);
+		margin: 0px auto;
+		overflow: hidden;
+	}
+	._4-u2 {
+		border: 0
+	}
+	._4-u8 {
+		background: none
+	}
 
 ._719s {
   background-color: rgba(0, 0, 0, 0);
-  padding: 0px;
+  	padding: 0px;
 }
 
 /* box size */
@@ -35,14 +35,14 @@ body {
 /* goal text */
 ._719t span {
   color: #fff !important;
-  font-family: Arial, sans-serif !important;
-  font-size: 3.5vw !important;
+  font-family: "Lucida Grande", Tahoma, Verdana, sans-serif !important;
+  font-size: 3.2vw !important;
 }
 
 /* progress bar */
 ._717f {
   background: #dadde1;
-  border-radius: 10px;
+  border-radius: 14px;
   height: 14px;
 }
 
@@ -52,11 +52,21 @@ body {
 
 /* progress completed */
 ._6i-u { 
-	background:
+  background:
   linear-gradient(63deg, #ffa308 23%, transparent 23%) 7px 0,
   linear-gradient(63deg, transparent 74%, #ffa308 78%),
   linear-gradient(63deg, transparent 34%, #ffa308 38%, #ffa308 58%, transparent 62%),
   #ffd894;
   background-size: 16px 48px;
+  animation: movingPattern 5s linear infinite;
   border-radius: 14px;
+}
+
+@keyframes movingPattern {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 48px 0;
+  }
 }
