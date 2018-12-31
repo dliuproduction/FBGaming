@@ -1,18 +1,38 @@
 /* entire block */
 /* background color and opcatiy */
-._74cy {
-  background-color: #66666684;
+
+body {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0px auto;
+  overflow: hidden;
+}
+._4-u2 {
+  border: 0;
+}
+._4-u8 {
+  background: none;
+ }
+
+._719s {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0px;
 }
 
 /* box size */
-._4-u3 {
+/*
+._4-u2>._4-u3:first-child {
   border-radius: 10px;
 }
 
+._4-u2>._4-u3:last-child {
+  border-radius: 10px;
+}
+*/
+
 /* goal text */
 ._719t span {
-  color: #000;
-  font-family: Helvetica, sans-serif;
+  color: #fff !important;
+  font-family: Arial, sans-serif !important;
 }
 
 /* progress bar */
