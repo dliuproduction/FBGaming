@@ -1,11 +1,5 @@
-/* entire goal block */
-._719t {
-  width: 100%
-}
-
 /* goal text */
 ._719t span {
-  background-color: #F9D8D4;
   color: #000;
   font-family: Helvetica, sans-serif;
 }
@@ -13,47 +7,21 @@
 /* progress bar */
 ._717f {
   background: #dadde1;
-  border-radius: 50px;
+  border-radius: 10px;
+  height: 14px;
+}
+
+._6i-p {
+  height: inherit;
 }
 
 /* progress completed */
 ._6i-u { 
 	background:
-	/* Pineapple details */
-	radial-gradient(circle closest-side at 50px 50px, #FB8B24 3px, transparent 0),
-	radial-gradient(circle closest-side at 40px 60px, #FB8B24 3px, transparent 0),
-	radial-gradient(circle closest-side at 60px 60px, #FB8B24 3px, transparent 0),
-	radial-gradient(circle closest-side at 50px 70px, #FB8B24 3px, transparent 0),
-	
-	radial-gradient(circle closest-side at 150px 165px, #FB8B24 3px, transparent 0),
-	radial-gradient(circle closest-side at 140px 175px, #FB8B24 3px, transparent 0),
-	radial-gradient(circle closest-side at 160px 175px, #FB8B24 3px, transparent 0),
-	radial-gradient(circle closest-side at 150px 185px, #FB8B24 3px, transparent 0),
-	
-	/* Pineapple base */
-	radial-gradient(ellipse closest-side at 50px 60px, #F9A734 18px, transparent 0),
-	
-	radial-gradient(ellipse closest-side at 150px 175px, #F9A734 18px, transparent 0),
-	
-	/* Pineapple leafs */
-	radial-gradient(circle closest-side at 30px 40px, #F9D8D4 15px, transparent 0),
-	radial-gradient(circle closest-side at 40px 35px, #36964C 15px, transparent 0),
-	radial-gradient(circle closest-side at 70px 40px, #F9D8D4 15px, transparent 0),
-	radial-gradient(circle closest-side at 60px 35px, #286E38 15px, transparent 0),
-	
-	radial-gradient(circle closest-side at 130px 155px, #F9D8D4 15px, transparent 0),
-	radial-gradient(circle closest-side at 140px 150px, #36964C 15px, transparent 0),
-	radial-gradient(circle at 170px 155px, #F9D8D4 15px, transparent 0),
-	radial-gradient(circle at 160px 150px, #286E38 15px, transparent 0)
-	;
-	background-color: #F9D8D4;
-	background-size: 180px 210px;
-	animation: animatedBackground .5s cubic-bezier(.61,-0.64,.58,1.46) forwards;
-}
-
-/* Animation */
-
-@keyframes animatedBackground {
-	from { background-position: 0 50%; }
-	to { background-position: 0 0; }
+  linear-gradient(63deg, #999 23%, transparent 23%) 7px 0,
+  linear-gradient(63deg, transparent 74%, #999 78%),
+  linear-gradient(63deg, transparent 34%, #999 38%, #999 58%, transparent 62%),
+  #444;
+  background-size: 16px 48px;
+  border-radius: 14px;
 }
