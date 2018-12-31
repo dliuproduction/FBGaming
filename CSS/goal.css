@@ -29,21 +29,21 @@ body {
 }
 */
 ._719t {
-  margin: 1px;
+  margin: 0px;
 }
 
 /* goal text */
 ._719t span {
   color: #fff !important;
   font-family: "Lucida Grande", Tahoma, Verdana, sans-serif !important;
-  font-size: 3.2vw !important;
+  font-size: 3vw !important;
 }
 
 /* progress bar */
 ._717f {
   background: #dadde1;
   border-radius: 14px;
-  height: 14px;
+  height: 3.8vw;
 }
 
 ._6i-p {
@@ -58,7 +58,7 @@ body {
   linear-gradient(63deg, transparent 34%, #ffa308 38%, #ffa308 58%, transparent 62%),
   #ffd894;
   background-size: 16px 48px;
-  animation: movingPattern 5s linear infinite;
+  animation: movingPattern 3s linear infinite;
   border-radius: 14px;
 }
 
