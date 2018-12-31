@@ -18,10 +18,10 @@
 /* progress completed */
 ._6i-u { 
 	background:
-  linear-gradient(63deg, #999 23%, transparent 23%) 7px 0,
-  linear-gradient(63deg, transparent 74%, #999 78%),
-  linear-gradient(63deg, transparent 34%, #999 38%, #999 58%, transparent 62%),
-  #444;
+  linear-gradient(63deg, #ffa308 23%, transparent 23%) 7px 0,
+  linear-gradient(63deg, transparent 74%, #ffa308 78%),
+  linear-gradient(63deg, transparent 34%, #ffa308 38%, #ffa308 58%, transparent 62%),
+  #ffd894;
   background-size: 16px 48px;
   border-radius: 14px;
 }
