@@ -7,11 +7,11 @@ body {
   overflow: hidden;
 }
 ._4-u2 {
-  border: 0;
+  border: 0
 }
 ._4-u8 {
-  background: none;
- }
+  background: none
+}
 
 ._719s {
   background-color: rgba(0, 0, 0, 0);
@@ -28,11 +28,15 @@ body {
   border-radius: 10px;
 }
 */
+._719t {
+  margin: 1px;
+}
 
 /* goal text */
 ._719t span {
   color: #fff !important;
   font-family: Arial, sans-serif !important;
+  font-size: 3.5vw !important;
 }
 
 /* progress bar */
