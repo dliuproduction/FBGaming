@@ -1,0 +1,65 @@
+
+	body {
+		background-color: rgba(0, 0, 0, 0);
+		margin: 0px auto;
+		overflow: hidden;
+	}
+	._4-u2 {
+		border: 0
+	}
+	._4-u8 {
+		background: none
+	}
+	._2l6k {
+		display: none
+	}
+	._2l6m {
+		color: #000;
+		font-size: 12px;
+	}
+
+    ._2l6l {
+		display: none;
+	}
+
+	a {
+		color: #fff;
+        font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+		font-size: 5.5vw;
+    }
+	._2l6h {
+		width: 11.5vw;
+		height: 11.5vw;
+	}
+	._2l6i {
+		padding-top: 1.95vw;
+	}
+	.UFICommentBody {
+		display: none;
+		visibility: hidden;
+	}
+	._2l6i {
+		visibility: hidden
+	}
+	._2l6i > span > a {
+		visibility: hidden !important
+	}
+	._2l6i > span > a:nth-child(1) {
+		visibility: initial !important
+	}
+	._25zr,
+	._3-8j {
+		display: none;
+	}
+	._4-u2>._4-u3 {
+		border: 0;
+	}
+	.uiScrollableAreaContent > ._2l6d {
+		display: none;
+	}
+	.uiScrollableAreaContent > ._2l6d:nth-child(1) {
+		display: block !important;
+	}
+	._2l6j { visibility: initial !important }
+	._2l6e, ._2l6d { background: none !important }
+	
